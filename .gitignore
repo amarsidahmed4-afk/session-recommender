@@ -1,3 +1,20 @@
-data/
+# Environments & Secrets
 venv/
-__pycache__/
+.env
+kaggle.json
+
+# Raw and Processed Data 
+data/
+*.csv
+*.parquet
+*.duckdb
+
+# Model Weights
+*.pt
+*.model
+*.model.wv.vectors.npy
+
+# Python Caches
+pycache/
+*.pyc
+.ipynb_checkpoints/
